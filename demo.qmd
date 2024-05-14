@@ -1,0 +1,36 @@
+---
+title: "タイトル"
+subtitle: "サブタイトル"
+author: "阿部洋輔"
+institute: "大阪大学大学院 国際公共政策研究科"
+date: today
+format: 
+  revealjs:
+    theme: custom.scss
+    lang: ja
+    slide-number: true
+    date-format: long
+---
+
+## ヘッダー
+
+### サブヘッダー {#sec-cars}
+
+このスライドの特徴は、ボタンがつけられるところです。
+
+```{r}
+#| echo: true
+#| label: fig-cars
+#| fig-cap: "Cars"
+
+plot(cars)
+```
+
+## これを引用する
+
+### そのためのボタンがこちら
+
+`[[図へ]{.button}](#sec-cars)`
+
+これで、[[図へ]{.button}](#sec-cars) このようなボタンができます。
+
